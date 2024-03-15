@@ -11,25 +11,51 @@
     <meta name="viewport" content="width:device-width,initial-scale=1.0" />
     <title>Página Básica</title>
 
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .cabecalho h1 {
+        text-align: center;
+        color: white;
+        background-color: black;
+        padding: 20px 0;
+        box-shadow: 4px 3px 5px #41416d;
+        border-radius: 5px;
+        font-size: 64px;
+      }
+
+      ul {
+        list-style: none;
+        /* background-color: blue; */
+      }
+
+      .cabecalho nav {
+        margin: 15px 0;
+      }
+
+      .cabecalho li {
+        display: inline-block;
+        margin: 0 12.1%;
+      }
+
+      .cabecalho li img {
+        width: 50%;
+        min-width: 5%;
+        display: block;
+      }
+
+    </style>
   </head>
   <!-- segundo filho do html = body -->
   <body>
     <div class="container">
       <!-- O container é uma div que serve como contêiner geral para todo o conteúdo da página. -->
       <header class="cabecalho">
-        <h1
-          style="
-            text-align: center;
-            color: white;
-            background-color: black;
-            padding: 20px 0;
-            box-shadow: 4px 3px 5px #41416d;
-            border-radius: 5px;
-            font-size: 64px;
-          "
-        >
-          Minha Página
-        </h1>
+        <h1>Minha Página</h1>
         <nav>
           <ul>
             <li>
