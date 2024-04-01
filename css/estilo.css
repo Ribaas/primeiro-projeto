@@ -3,3 +3,7 @@ header {
     background-color: blue;
 }
 
+/* Questao 2 */
+h1, h2 {
+    font-family: serif;
+}
