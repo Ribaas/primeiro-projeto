@@ -39,3 +39,8 @@ p {
     background-color: blue;
     color: white;
 }
+
+/* Questao 9 */
+footer {
+    border-top: 2px solid red;
+}
