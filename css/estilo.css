@@ -17,3 +17,8 @@ nav a {
 .container {
     padding: 20px;
 }
+
+/* Questao 5 */
+#conteudo-principal {
+    line-height: 1.5;
+}
