@@ -12,3 +12,8 @@ h1, h2 {
 nav a {
     font-weight: bold;
 }
+
+/* Questao 4 */
+.container {
+    padding: 20px;
+}
