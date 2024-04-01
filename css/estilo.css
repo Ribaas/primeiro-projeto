@@ -22,3 +22,9 @@ nav a {
 #conteudo-principal {
     line-height: 1.5;
 }
+
+/* Questao 6 */
+#contact form {
+    border: 1px solid gray;
+    padding: 10px;
+}
